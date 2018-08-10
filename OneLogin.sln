@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneLogin.idp", "OneLogin.idp\OneLogin.idp.csproj", "{BE1BA746-6BF7-47C8-81C3-87C14606FD71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneLogin.idp", "OneLogin.idp\OneLogin.idp.csproj", "{BE1BA746-6BF7-47C8-81C3-87C14606FD71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Client", "ImageGallery.Client\ImageGallery.Client.csproj", "{A7BED719-EFAE-48E2-933C-8D0FF5A61A92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Model", "ImageGallery.Model\ImageGallery.Model.csproj", "{4A6E3FEB-6037-4AE3-9444-A29F2B8BD842}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.API", "ImageGallery.API\ImageGallery.API.csproj", "{7DFF9E72-260F-419E-994D-CD3D11B85D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{BE1BA746-6BF7-47C8-81C3-87C14606FD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1BA746-6BF7-47C8-81C3-87C14606FD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1BA746-6BF7-47C8-81C3-87C14606FD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BED719-EFAE-48E2-933C-8D0FF5A61A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BED719-EFAE-48E2-933C-8D0FF5A61A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BED719-EFAE-48E2-933C-8D0FF5A61A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BED719-EFAE-48E2-933C-8D0FF5A61A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6E3FEB-6037-4AE3-9444-A29F2B8BD842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6E3FEB-6037-4AE3-9444-A29F2B8BD842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6E3FEB-6037-4AE3-9444-A29F2B8BD842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6E3FEB-6037-4AE3-9444-A29F2B8BD842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFF9E72-260F-419E-994D-CD3D11B85D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFF9E72-260F-419E-994D-CD3D11B85D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFF9E72-260F-419E-994D-CD3D11B85D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFF9E72-260F-419E-994D-CD3D11B85D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
