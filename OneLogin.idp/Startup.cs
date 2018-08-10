@@ -21,6 +21,7 @@ namespace OneLogin.idp
                 .AddDeveloperSigningCredential()
                 .AddTestUsers(Config.GetUsers())
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
+                .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients());
         }
 

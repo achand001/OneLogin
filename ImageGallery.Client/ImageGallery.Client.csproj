@@ -5,15 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Authorization\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />   
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.2" />   
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ImageGallery.Model\ImageGallery.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IdentityModel">
+      <HintPath>..\..\..\..\.nuget\packages\identitymodel\3.6.1\lib\netstandard2.0\IdentityModel.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
